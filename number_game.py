@@ -1,5 +1,5 @@
 import random
-num=random.randint(1, 1000)
+num=random.randint(1, 999)
 while True;
  guess = int(input("Enter your guess: ")
              if guess < num
