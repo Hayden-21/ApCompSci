@@ -12,4 +12,10 @@ day = []
   elif sleep == 6 
     return "Establish a 30-60min routine before bed, avoid screens, caffiene, and alcohol. Optimize your bedroom to be dark cool and quiet"
   elif sleep == 5 
-      return "
+      return "You should include physical activity throughout the day,If you haven't slept then get up and do a quiet and slow cool down routine before bed"
+  elif sleep == 4
+      return "Get sunlight in the morning and avoid phones, Avoid long naps in the afternoon, try low-dose melatonin"
+  elif sleep == 3
+      return "Remove screens an hour before bed, Keep naps under 30 minutes, Write down your worries, practice mindfulness/meditation to reduce anxiety"
+  elif sleep == 2
+      return " Prevent any phone use 1hr before bed, practice deep breathing, don't eat heavy meals"
