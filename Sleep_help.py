@@ -3,8 +3,8 @@ def say_greeting():
 say_greeting()
 day = []
   weekday = input("What day of sleep are we helping?")
-  day.appends(weekday)
-  sleep = intinput("How did you sleep 1-10")
+  day.append(weekday)
+  sleep = int(input("How did you sleep 1-10"))
   if sleep == 9 or 10 
     return "You slept incredibly keep it up"
   elif sleep == 7 or 8
@@ -19,3 +19,7 @@ day = []
       return "Remove screens an hour before bed, Keep naps under 30 minutes, Write down your worries, practice mindfulness/meditation to reduce anxiety"
   elif sleep == 2
       return " Prevent any phone use 1hr before bed, practice deep breathing, don't eat heavy meals"
+  elif sleep == 1
+      return "Do stretching and reading 20 minutes before bed,Stay active throughout the day, Report to a doctor for continued issues"
+  else
+      return "Invalid Response"
