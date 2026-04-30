@@ -29,6 +29,9 @@ day.append(weekday)
   else:
       print("Invalid Response")
   if sleep <=6:
-      print_poor_sleep_days
       poor_sleep_days.append((day, sleep))
+      poor_sleep_days(poor_sleep_days)
+
+
+
 
