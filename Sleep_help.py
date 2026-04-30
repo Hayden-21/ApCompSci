@@ -5,11 +5,11 @@ def print_poor_sleep_days(days):
     for day, score in days:
       print(f"{day}: {score}/10")
 say_greeting()
-day = []
+day = weekday
 poor_sleep_days = []
 weekday = input("What day of sleep are we helping?")
 day.append(weekday)
-  sleep = int(input("How did you sleep 1-10"))
+sleep = int(input("How did you sleep 1-10"))
   if sleep == 9 or sleep == 10:
     print("You slept incredibly keep it up")
   elif sleep == 7 or sleep== 8:
@@ -30,7 +30,7 @@ day.append(weekday)
       print("Invalid Response")
   if sleep <=6:
       poor_sleep_days.append((day, sleep))
-      poor_sleep_days(poor_sleep_days)
+      print_poor_sleep_days(poor_sleep_days)
 
 
 
