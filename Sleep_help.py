@@ -1,10 +1,14 @@
 def say_greeting():
   print("Welcome, I hope you slept")
+def print_poor_sleep_days(days):
+  if days:
+    for day, score in days:
+      print(f"{day}: {score}/10")
 say_greeting()
 day = []
 poor_sleep_days = []
 weekday = input("What day of sleep are we helping?")
-  day.append(weekday)
+day.append(weekday)
   sleep = int(input("How did you sleep 1-10"))
   if sleep == 9 or sleep == 10:
     print("You slept incredibly keep it up")
@@ -25,9 +29,6 @@ weekday = input("What day of sleep are we helping?")
   else:
       print("Invalid Response")
   if sleep <=6:
+      print_poor_sleep_days
       poor_sleep_days.append((day, sleep))
-  def print_poor_sleep_days(days):
-      if days:
-        for day, score in days:
-          print(f"{day}: {score}/10")
 
