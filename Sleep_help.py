@@ -5,7 +5,7 @@ def print_poor_sleep_days(days):
     for day, score in days:
       print(f"{day}: {score}/10")
 say_greeting()
-weekday[]
+weekday = []
 day = weekday
 poor_sleep_days = []
 weekday = input("What day of sleep are we helping?")
