@@ -23,3 +23,5 @@ weekday = input("What day of sleep are we helping?")
       print("Do stretching and reading 20 minutes before bed,Stay active throughout the day, Report to a doctor for continued issues")
   else:
       print("Invalid Response")
+  if weekday == "sunday"
+      print(f"sleep<=6
