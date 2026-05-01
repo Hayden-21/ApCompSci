@@ -13,7 +13,7 @@ day.append(weekday)
 sleep = int(input("How did you sleep 1-10"))
 if sleep == 9 or sleep == 10:
   print("You slept incredibly keep it up")
-elif sleep == 7 or sleep== 8:
+elif sleep == 7 or sleep == 8:
   print("focus on enhancing sleep hygiene,optimizing the bedroom enviorment, and managing late-night activities. Finally maintain a strict and consistent sleep schedule")
 elif sleep == 6:
   print("Establish a 30-60min routine before bed, avoid screens, caffiene, and alcohol. Optimize your bedroom to be dark cool and quiet")
@@ -32,7 +32,3 @@ else:
 if sleep <=6:
   poor_sleep_days.append((day, sleep))
   print_poor_sleep_days(poor_sleep_days)
-
-
-
-
